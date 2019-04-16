@@ -1,0 +1,22 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#title {
+  text-align: center;
+  background-color: lightgray;
+}
+.question{
+    background-color: lightgray;
+}
+input[type=button]{
+    background-color:cadetblue;
+    cursor: pointer;
+    margin: 4px 2px;
+    border: none;
+    text-decoration: none;
+    padding: 14px 28px;
+}
+.quiz{
+  text-decoration: none;
+  /* fazer o css do container onde terá as questões */
+}

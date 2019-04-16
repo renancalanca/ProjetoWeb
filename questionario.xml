@@ -1,8 +1,107 @@
 <question id=0>
-    <text>Qual o valor de E?</text>
-    <answer value= 0>A</answer>
-    <answer value= 0>B</answer>
-    <answer value= 0>C</answer>
-    <answer value= 0>D</answer>
-    <answer value= 1>E</answer>
+    <text>Qual o valor de 2+3?</text>
+    <answer value= 0>1</answer>
+    <answer value= 0>2</answer>
+    <answer value= 0>3</answer>
+    <answer value= 0>4</answer>
+    <answer value= 1>5</answer>
+</question>
+
+<question id=1>
+    <text>Qual o valor de 6+2?</text>
+    <answer value= 0>5</answer>
+    <answer value= 0>6</answer>
+    <answer value= 0>7</answer>
+    <answer value= 1>8</answer>
+    <answer value= 0>9</answer>
+</question>
+
+<question id=0>
+    <text>Qual o valor de 2+3?</text>
+    <answer value= 0>1</answer>
+    <answer value= 0>2</answer>
+    <answer value= 0>3</answer>
+    <answer value= 0>4</answer>
+    <answer value= 1>5</answer>
+</question>
+
+<question id=1>
+    <text>Qual o valor de 6+2?</text>
+    <answer value= 0>5</answer>
+    <answer value= 0>6</answer>
+    <answer value= 0>7</answer>
+    <answer value= 1>8</answer>
+    <answer value= 0>9</answer>
+</question>
+
+<question id=0>
+    <text>Qual o valor de 2+3?</text>
+    <answer value= 0>1</answer>
+    <answer value= 0>2</answer>
+    <answer value= 0>3</answer>
+    <answer value= 0>4</answer>
+    <answer value= 1>5</answer>
+</question>
+
+<question id=1>
+    <text>Qual o valor de 6+2?</text>
+    <answer value= 0>5</answer>
+    <answer value= 0>6</answer>
+    <answer value= 0>7</answer>
+    <answer value= 1>8</answer>
+    <answer value= 0>9</answer>
+</question>
+
+<question id=0>
+    <text>Qual o valor de 2+3?</text>
+    <answer value= 0>1</answer>
+    <answer value= 0>2</answer>
+    <answer value= 0>3</answer>
+    <answer value= 0>4</answer>
+    <answer value= 1>5</answer>
+</question>
+
+<question id=1>
+    <text>Qual o valor de 6+2?</text>
+    <answer value= 0>5</answer>
+    <answer value= 0>6</answer>
+    <answer value= 0>7</answer>
+    <answer value= 1>8</answer>
+    <answer value= 0>9</answer>
+</question>
+
+<question id=0>
+    <text>Qual o valor de 2+3?</text>
+    <answer value= 0>1</answer>
+    <answer value= 0>2</answer>
+    <answer value= 0>3</answer>
+    <answer value= 0>4</answer>
+    <answer value= 1>5</answer>
+</question>
+
+<question id=1>
+    <text>Qual o valor de 6+2?</text>
+    <answer value= 0>5</answer>
+    <answer value= 0>6</answer>
+    <answer value= 0>7</answer>
+    <answer value= 1>8</answer>
+    <answer value= 0>9</answer>
+</question>
+
+<question id=0>
+    <text>Qual o valor de 2+3?</text>
+    <answer value= 0>1</answer>
+    <answer value= 0>2</answer>
+    <answer value= 0>3</answer>
+    <answer value= 0>4</answer>
+    <answer value= 1>5</answer>
+</question>
+
+<question id=1>
+    <text>Qual o valor de 6+2?</text>
+    <answer value= 0>5</answer>
+    <answer value= 0>6</answer>
+    <answer value= 0>7</answer>
+    <answer value= 1>8</answer>
+    <answer value= 0>9</answer>
 </question>
