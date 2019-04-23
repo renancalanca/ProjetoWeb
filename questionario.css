@@ -16,6 +16,9 @@ input[type=button]{
     text-decoration: none;
     padding: 14px 28px;
 }
+input[type=radio]{
+  width: 30px;
+}
 .quiz{
   text-decoration: none;
   /* fazer o css do container onde terá as questões */

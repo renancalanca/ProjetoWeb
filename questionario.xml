@@ -1,10 +1,10 @@
-<question id=0>
+<question>
     <text>Qual o valor de 2+3?</text>
-    <answer value= 0>1</answer>
-    <answer value= 0>2</answer>
-    <answer value= 0>3</answer>
-    <answer value= 0>4</answer>
-    <answer value= 1>5</answer>
+    <answer>1</answer>
+    <answer>2</answer>
+    <answer>3</answer>
+    <answer>4</answer>
+    <answer>5</answer>
 </question>
 
 <question id=1>
