@@ -12,8 +12,8 @@
 <body>
   <form id="form1">
     <h2 id="title">Quiz sobre desenvolvimento Web</h2>
-    <input type="text" id="txtXml"/>
-    <input type="button" onclick="getXml();">
+    <!-- <input type="text" id="txtXml" /> -->
+    <input type="button" id="btnStart" value="Iniciar Quiz" onclick="getXml();">
     <div id="main">
       <article>
         <p>
@@ -24,9 +24,9 @@
           Notas; C) Nota da última tentativa;.
         </p>
       </article>
-      
+      <h3 id="qtdTentativa"></h3>
       <div id="quiz" class="quiz">
-        <div class="question">
+        <!-- <div class="question">
           <h3>Quanto é 3+2?</h3>
           <input type="radio" name="answer1" value="0" required>Blá Blá Blá<br>
           <input type="radio" name="answer1" value="1"> 5 <br>
@@ -35,11 +35,12 @@
           <h3>Quanto é 6+2?</h3>
           <input type="radio" name="answer2" value="0" required>Blá Blá Blá<br>
           <input type="radio" name="answer2" value="1"> 8 <br>
-        </div>
+        </div> -->
       </div>
-      </div>
-      
-    <input type="button" value="Finalizar" onclick="">
+    </div>
+
+    <input type="button" id="btnNew" value="Finalizar Tentativa" onclick="verifyAnswer();">
+    <input type="button" id="btnFinalizar" value="Finalizar Quiz" style="display: none;" onclick="concludeQuiz();">
     <footer>
 
     </footer>

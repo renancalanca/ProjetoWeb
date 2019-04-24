@@ -1,25 +1,34 @@
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 #title {
   text-align: center;
   background-color: lightgray;
 }
-.question{
-    background-color: lightgray;
+.question {
+  background-color: lightgray;
 }
-input[type=button]{
-    background-color:cadetblue;
-    cursor: pointer;
-    margin: 4px 2px;
-    border: none;
-    text-decoration: none;
-    padding: 14px 28px;
+input[type="button"] {
+  background-color: cadetblue;
+  cursor: pointer;
+  margin: 4px 2px;
+  border: none;
+  text-decoration: none;
+  padding: 14px 28px;
 }
-input[type=radio]{
+input[type="radio"] {
   width: 30px;
+  color: red;
 }
-.quiz{
+.quiz {
   text-decoration: none;
   /* fazer o css do container onde terá as questões */
+}
+
+.wrongQuestion {
+  color: purple;
+}
+
+.rightQuestion {
+  color: green;
 }
