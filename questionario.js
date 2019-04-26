@@ -8,7 +8,7 @@ function getXml() {
 
   var stringxml =
     "<quiz>" +
-    "<question>" +
+    "<question id='0'>" +
     "<title>Qual o valor de 1+1?</title>" +
     "<answer value='0'>1</answer>" +
     "<answer value='1'>2</answer>" +
@@ -16,7 +16,7 @@ function getXml() {
     "<answer value='0'>4</answer>" +
     "<answer value='0'>5</answer>" +
     "</question>" +
-    "<question>" +
+    "<question id='1'>" +
     "<title>Qual o valor de 2+2?</title>" +
     "<answer value='0'>1</answer>" +
     "<answer value='0'>2</answer>" +
@@ -40,6 +40,7 @@ function loadXMLDoc() {
   xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       var xmlDoc = this.responseXML;
+      xmlQuiz = xmlDoc;
       convertXmlToQuestion(xmlDoc);
     }
   };
@@ -48,8 +49,8 @@ function loadXMLDoc() {
 }
 
 function convertXmlToQuestion(xml) {
-  var quizTeste = xml.getElementsByTagName("quiz");
-  var lstQuestion = quizTeste[0].getElementsByTagName("question");
+  //var quizTeste = xml.getElementsByTagName("quiz");
+  var lstQuestion = xml.getElementsByTagName("question");
   lstQuestion = returnTenQuestions(lstQuestion);
 
   for (var i = 0; i < lstQuestion.length; i++) {
@@ -80,8 +81,8 @@ function convertXmlToQuestion(xml) {
 
     document.getElementById("quiz").appendChild(newDiv);
     document.getElementById("qtdTentativa").textContent = "Tentativa: "  + qtdRespondida;
-    qtdRespondida++;
   }
+  qtdRespondida++;
 }
 
 function returnTenQuestions(lstQuestion){
@@ -89,10 +90,10 @@ function returnTenQuestions(lstQuestion){
   var i = 0;
   while(i< 10){
     //Utilizar o random aqui quando tiver mais que 10 itens a lista
-    //lstSorted.push(lstQuestion[Math.floor(Math.random()*items.length)]);
+    lstSorted.push(lstQuestion[Math.floor(Math.random()*lstQuestion.length)]);
     i++;
   }
-  lstSorted.push(lstQuestion[Math.floor(Math.random()*lstQuestion.length)]);
+  //lstSorted.push(lstQuestion[Math.floor(Math.random()*lstQuestion.length)]);
   return lstSorted;
 }
 
@@ -149,15 +150,20 @@ function concludeQuiz(){
 }
 
 function resetQuiz(){
-  if(qtdRespondida == 3){
+  if(qtdRespondida == 4){
     document.getElementById("btnFinalizar").style.display = "inline-block";
     document.getElementById("btnNew").style.visibility = "hidden";
-    console.log("Terceira tentativa?");
+    cleanQuestion();
+    return;
   }
+  cleanQuestion();
+  convertXmlToQuestion(xmlQuiz);
+}
+
+function cleanQuestion(){
   var questions = document.getElementsByClassName("question");
   while(questions.length > 0){
     questions[0].parentNode.removeChild(questions[0]);
   }
-  convertXmlToQuestion(xmlQuiz);
 }
 

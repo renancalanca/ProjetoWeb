@@ -1,109 +1,172 @@
 <quiz>
-    <question>
-        <text>Qual o valor de 2+3?</text>
-        <answer>1</answer>
-        <answer>2</answer>
-        <answer>3</answer>
-        <answer>4</answer>
-        <answer>5</answer>
+    <question id='1'>
+        <title >Qual a tag para pular linha no html?</title>
+        <answer value = '0'>a</answer>
+        <answer value = '0'>b</answer>
+        <answer value = '0'>cr</answer>
+        <answer value = '1'>br</answer>
+        <answer value = '0'>dr</answer>
     </question>
 
-    <question id=1>
-<text>Qual o valor de 6+2?</text>
-<answer value= 0>5</answer>
-<answer value= 0>6</answer>
-<answer value= 0>7</answer>
-<answer value= 1>8</answer>
-<answer value= 0>9</answer>
-</question>
+    <question id='2'>
+        <title>Qual a tag em HTML para parágrafo?</title>
+        <answer value = '1'>p</answer>
+        <answer value = '0'>u</answer>
+        <answer value = '0'>o</answer>
+        <answer value = '0'>y</answer>
+        <answer value = '0'>x</answer>
+    </question>
 
-<question id=0>
-<text>Qual o valor de 2+3?</text>
-<answer value= 0>1</answer>
-<answer value= 0>2</answer>
-<answer value= 0>3</answer>
-<answer value= 0>4</answer>
-<answer value= 1>5</answer>
-</question>
+    <question id='3'>
+        <title>Qual a tag H que tem maior tamanho de fonte?</title>
+        <answer value = '1'>h1</answer>
+        <answer value = '0'>h2</answer>
+        <answer value = '0'>h3</answer>
+        <answer value = '0'>h4</answer>
+        <answer value = '0'>h5</answer>
+    </question>
 
-<question id=1>
-<text>Qual o valor de 6+2?</text>
-<answer value= 0>5</answer>
-<answer value= 0>6</answer>
-<answer value= 0>7</answer>
-<answer value= 1>8</answer>
-<answer value= 0>9</answer>
-</question>
+    <question id='4'>
+        <title>Qual a tag para deixar um texto em negrito?</title>
+        <answer value = '0'>a</answer>
+        <answer value = '0'>n</answer>
+        <answer value = '0'>bold</answer>
+        <answer value = '1'>b</answer>
+        <answer value = '1'>negrito</answer>
+    </question>
 
-<question id=0>
-<text>Qual o valor de 2+3?</text>
-<answer value= 0>1</answer>
-<answer value= 0>2</answer>
-<answer value= 0>3</answer>
-<answer value= 0>4</answer>
-<answer value= 1>5</answer>
-</question>
+    <question id='5'>
+        <title>Qual caracter indica o fim de uma tag?</title>
+        <answer value = '0'>*</answer>
+        <answer value = '0'>></answer>
+        <answer value = '0'>^</answer>
+        <answer value = '0'>?</answer>
+        <answer value = '1'>/</answer>
+    </question>
 
-<question id=1>
-<text>Qual o valor de 6+2?</text>
-<answer value= 0>5</answer>
-<answer value= 0>6</answer>
-<answer value= 0>7</answer>
-<answer value= 1>8</answer>
-<answer value= 0>9</answer>
-</question>
+    <question id='6'>
+        <title>O que vem dentro de uma table no html?</title>
+        <answer value = '0'>td; tg; ti;</answer>
+        <answer value = '1'>td; tr; th;</answer>
+        <answer value = '0'>tu; tf; th;</answer>
+        <answer value = '0'>tg; tt; th;</answer>
+        <answer value = '0'>tv; tr; tm;</answer>
+    </question>
 
-<question id=0>
-<text>Qual o valor de 2+3?</text>
-<answer value= 0>1</answer>
-<answer value= 0>2</answer>
-<answer value= 0>3</answer>
-<answer value= 0>4</answer>
-<answer value= 1>5</answer>
-</question>
+    <question id='7'>
+        <title>Qual a tag referente ao rodapé de uma página HTML?</title>
+        <answer value = '1'>footer</answer>
+        <answer value = '0'>foot</answer>
+        <answer value = '0'>f</answer>
+        <answer value = '0'>under</answer>
+        <answer value = '0'>u</answer>
+    </question>
 
-<question id=1>
-<text>Qual o valor de 6+2?</text>
-<answer value= 0>5</answer>
-<answer value= 0>6</answer>
-<answer value= 0>7</answer>
-<answer value= 1>8</answer>
-<answer value= 0>9</answer>
-</question>
+    <question id='8'>
+        <title>O que significa HTML?</title>
+        <answer value = '0'>HypnoToad Multiple Loop</answer>
+        <answer value = '0'>HardText Markup Language</answer>
+        <answer value = '0'>HyperTable Max Language</answer>
+        <answer value = '1'>HyperText Markup Language</answer>
+        <answer value = '0'>HyperText Master Language</answer>
+    </question>
 
-<question id=0>
-<text>Qual o valor de 2+3?</text>
-<answer value= 0>1</answer>
-<answer value= 0>2</answer>
-<answer value= 0>3</answer>
-<answer value= 0>4</answer>
-<answer value= 1>5</answer>
-</question>
+    <question id='9'>
+        <title>Qual a tag de inserção de imagens em uma página web?</title>
+        <answer value = '0'>footer</answer>
+        <answer value = '0'>src</answer>
+        <answer value = '0'>imagem</answer>
+        <answer value = '0'>alt</answer>
+        <answer value = '1'>img</answer>
+    </question>
 
-<question id=1>
-<text>Qual o valor de 6+2?</text>
-<answer value= 0>5</answer>
-<answer value= 0>6</answer>
-<answer value= 0>7</answer>
-<answer value= 1>8</answer>
-<answer value= 0>9</answer>
-</question>
+    <question id='10'>
+        <title>Qual a tag para a criação de um hyperlink?</title>
+        <answer value = '0'>ol</answer>
+        <answer value = '1'>a</answer>
+        <answer value = '0'>em</answer>
+        <answer value = '0'>style</answer>
+        <answer value = '0'>link</answer>
+    </question>
 
-<question id=0>
-<text>Qual o valor de 2+3?</text>
-<answer value= 0>1</answer>
-<answer value= 0>2</answer>
-<answer value= 0>3</answer>
-<answer value= 0>4</answer>
-<answer value= 1>5</answer>
-</question>
+    <question id='11'>
+        <title>Qual tag de HTML você coloca o JavaScript?</title>
+        <answer value = '1'>script</answer>
+        <answer value = '0'>javascript</answer>
+        <answer value = '0'>scripting</answer>
+        <answer value = '0'>js</answer>
+        <answer value = '0'>src</answer>
+    </question>
 
-<question id=1>
-<text>Qual o valor de 6+2?</text>
-<answer value= 0>5</answer>
-<answer value= 0>6</answer>
-<answer value= 0>7</answer>
-<answer value= 1>8</answer>
-<answer value= 0>9</answer>
-</question>
+    <question id='12'>
+        <title>Onde é o lugar correto para inserir o JavaScript?</title>
+        <answer value = '0'>body</answer>
+        <answer value = '1'>head</answer>
+        <answer value = '0'>Tanto no body quanto no head</answer>
+        <answer value = '0'>footer</answer>
+        <answer value = '0'>Em qualquer lugar da página</answer>
+    </question>
+
+    <question id='13'>
+        <title>Qual é a sintaxe correta para se referir a um script externo com o nome de "script.js"?</title>
+        <answer value = '1'>script src = "script.js"</answer>
+        <answer value = '0'>script href = "script.js" </answer>
+        <answer value = '0'>script name = "script.js"</answer>
+        <answer value = '0'>script value = "script.js"</answer>
+        <answer value = '0'>script text = "script.js"</answer>
+    </question>
+
+    <question id='14'>
+        <title>Como você escreve "Hello World!" em uma Alert Box?</title>
+        <answer value = '0'>alertBox("Hello World!)</answer>
+        <answer value = '0'>msgBox("Hello World!")</answer>
+        <answer value = '0'>msg("Hello World!")</answer>
+        <answer value = '1'>alert("Hello World!")</answer>
+        <answer value = '0'>boc("Hello World!")</answer>
+    </question>
+
+    <question id='15'>
+        <title>Qual é a sintaxe para criar uma função em JavaScript?</title>
+        <answer value = '0'>function:myFunction()</answer>
+        <answer value = '0'>function = myFunction()</answer>
+        <answer value = '0'>function var myFunction()</answer>
+        <answer value = '0'>style</answer>
+        <answer value = '1'>function myFunction()</answer>
+    </question>
+
+    <question id='16'>
+        <title>Como escrever um IF em JavaScript?</title>
+        <answer value = '0'>if i = 5 then</answer>
+        <answer value = '1'>if(i==5)</answer>
+        <answer value = '0'>if i == 5</answer>
+        <answer value = '0'>if (i==5) then</answer>
+        <answer value = '0'>if (5)</answer>
+    </question>
+
+    <question id='17'>
+        <title>Qual o modo correto de escrever um array no JavaScript?</title>
+        <answer value = '0'>var colors = "red", "green", "blue"</answer>
+        <answer value = '0'>var colors = (1:"red", 2:"green", 3:"blue") </answer>
+        <answer value = '0'>var colors = "red" - "green" - "blue"</answer>
+        <answer value = '0'>var colors = 1 = "red", 2 = "green", 3 = "blue"</answer>
+        <answer value = '1'>var colors = ["red", "green", "blue"]</answer>
+    </question>
+
+    <question id='18'>
+        <title>Como você encontra o número com maior valor entre x e y?</title>
+        <answer value = '0'>ceil(x, y)</answer>
+        <answer value = '0'>Math.ceil(x, y)</answer>
+        <answer value = '0'>Math(x, y)</answer>
+        <answer value = '0'>top(x, y)</answer>
+        <answer value = '1'>Math.max(x, y)</answer>
+    </question>
+
+    <question id='1'>
+        <title>Qual a tag para a criação de um hyperlink?</title>
+        <answer value = '0'>ol</answer>
+        <answer value = '1'>a</answer>
+        <answer value = '0'>em</answer>
+        <answer value = '0'>style</answer>
+        <answer value = '0'>link</answer>
+    </question>
 </quiz>
