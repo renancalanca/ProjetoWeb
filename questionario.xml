@@ -32,7 +32,7 @@
         <answer value = '0'>n</answer>
         <answer value = '0'>bold</answer>
         <answer value = '1'>b</answer>
-        <answer value = '1'>negrito</answer>
+        <answer value = '0'>negrito</answer>
     </question>
 
     <question id='5'>
@@ -161,12 +161,49 @@
         <answer value = '1'>Math.max(x, y)</answer>
     </question>
 
-    <question id='1'>
-        <title>Qual a tag para a criação de um hyperlink?</title>
-        <answer value = '0'>ol</answer>
-        <answer value = '1'>a</answer>
-        <answer value = '0'>em</answer>
-        <answer value = '0'>style</answer>
-        <answer value = '0'>link</answer>
+    <question id='19'>
+        <title>Para que haja uma animação que muda de forma gradual, em CSS, qual função utilizamos?</title>
+        <answer value = '0'>frame</answer>
+        <answer value = '1'>@keyframes</answer>
+        <answer value = '0'>rotation</answer>
+        <answer value = '0'>@gradient</answer>
+        <answer value = '0'>gradual</answer>
     </question>
+
+    <question id='20'>
+        <title>Para que haja uma animação que muda de forma gradual, em CSS, qual função utilizamos?</title>
+        <answer value = '0'>frame</answer>
+        <answer value = '1'>@keyframes</answer>
+        <answer value = '0'>rotation</answer>
+        <answer value = '0'>@gradient</answer>
+        <answer value = '0'>gradual</answer>
+    </question>
+
+Qual propriedade CSS é utilizada para ditar o tempo da execução de uma animação?
+Resposta: animation-duration
+
+Com qual das seguintes expressões, é possível deixar o elemento em questão "transparente"?
+Resposta: filter: alpha(opacity=100);
+
+O CSS Tansform é:
+Resposta: um efeito que permite que um elemento mude de forma, tamanho e posição.
+
+Sobre a propriedade Class, é correto afirmar.
+Resposta: Sua utilização é adequada com pretende-se atribuir a mesma regra de estilização para mais de um elemento, com a mesma tag semântica, em um documento.
+
+Sobre a propriedade ID, é correto afimar.
+Resposta: Sua utilização é adequada quando pretende-se restringir certas regras de estilização a um determinado elemento.
+
+Suponha um botão na cor verde que ao posicionar o ponteiro do mouse fique encima dele, sem realizar nenhuma ação de clique, o mesmo muda sua cor para cinza. Qual classe é utilizada?
+Resposta: :hover
+
+Qual tag HTML é utilizada para definir uma folha de estilo?
+Resposta: <style>
+
+Qual propriedade CSS é usada para a mudança de cor do texto de um elemento?
+Resposta: color
+
+O que significa CSS?
+Resposta: Cascading Style Sheets
+
 </quiz>
