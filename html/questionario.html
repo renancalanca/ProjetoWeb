@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Questionário</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/questionario.css"
+    />
+    <script src="../javascript/questionario.js"></script>
+  </head>
+
+  <body>
+    <header id="title" class="header">Quiz sobre desenvolvimento Web</header>
+    <div id="main">
+      <form id="form1">
+        <input
+          type="button"
+          id="btnStart"
+          value="Iniciar Quiz"
+          onclick="loadXMLDoc();"
+        />
+        <article>
+          <p>
+            Você terá 3 tentativas de responder o questionário, cada tentativa
+            possui 10 questões.
+          </p>
+          <p>
+            Antes de começar o questionário você deverá escolher entre 3 modos
+            de avalialição: maior nota, média das notas ou nota da última tentativa.
+          </p>
+        </article>
+        <div id="divAvaliacao">
+          Modo de avaliação:
+          <select id="ddlAvaliacao">
+            <option value="maiorNota">Maior Nota</option>
+            <option value="media">Média das Notas</option>
+            <option value="ultimaNota">Nota da última tentativa</option>
+          </select>
+        </div>
+        <h3 id="qtdTentativa"></h3>
+        <div id="divPagination" class="pagination"></div>
+        <div id="quiz" class="quiz"></div>
+        <input
+          type="button"
+          id="btnNovaTentativa"
+          value="Finalizar Tentativa"
+          onclick="verificaResposta();"
+          style="margin-top: 20px;"
+        />
+        <input
+          type="button"
+          id="btnFinalizar"
+          value="Finalizar Quiz"
+          style="margin-top: 20px;"
+          onclick="concluirQuiz();"
+        />
+        <footer><b>Renan Calanca Campregher - 170010-3</b></footer>
+      </form>
+    </div>
+  </body>
+</html>

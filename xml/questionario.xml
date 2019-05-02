@@ -179,31 +179,94 @@
         <answer value = '0'>gradual</answer>
     </question>
 
-Qual propriedade CSS é utilizada para ditar o tempo da execução de uma animação?
-Resposta: animation-duration
+    <question id='21'>
+        <title>Qual propriedade CSS é utilizada para ditar o tempo da execução de uma animação?</title>
+        <answer value = '0'>duration</answer>
+        <answer value = '0'>time-animation</answer>
+        <answer value = '1'>animation-duration</answer>
+        <answer value = '0'>timer</answer>
+        <answer value = '0'>animation-timer</answer>
+    </question>
 
-Com qual das seguintes expressões, é possível deixar o elemento em questão "transparente"?
-Resposta: filter: alpha(opacity=100);
+    <question id='22'>
+        <title>Com qual das seguintes expressões, é possível deixar o elemento em questão "transparente"?</title>
+        <answer value = '0'>transparent = true;</answer>
+        <answer value = '0'>opacity = 0;</answer>
+        <answer value = '0'>filter: transparent;</answer>
+        <answer value = '1'>filter: alpha(opacity=100);</answer>
+        <answer value = '0'>filter: visible = false;</answer>
+    </question>
 
-O CSS Tansform é:
-Resposta: um efeito que permite que um elemento mude de forma, tamanho e posição.
+    <question id='23'>
+        <title>O CSS Tansform é:</title>
+        <answer value = '0'>Um efeito que muda o estado de visibilidade do elemento.</answer>
+        <answer value = '0'>Tem a função de adicionar sobreposição do elemento sobre outro. </answer>
+        <answer value = '0'>Um efeito para alterar a opacidade de um elemento.</answer>
+        <answer value = '0'>Altera a cor de um elemento.</answer>
+        <answer value = '1'>Um efeito que permite que um elemento mude de forma, tamanho e posição.</answer>
+    </question>
 
-Sobre a propriedade Class, é correto afirmar.
-Resposta: Sua utilização é adequada com pretende-se atribuir a mesma regra de estilização para mais de um elemento, com a mesma tag semântica, em um documento.
+    <question id='24'>
+        <title>Sobre a propriedade Class, é correto afirmar.</title>
+        <answer value = '1'>Sua utilização é adequada quando pretende-se atribuir a mesma regra de estilização para mais de um elemento, com a mesma tag semântica, em um documento.</answer>
+        <answer value = '0'>Sua utilização é adequada quando pretende-se criar uma classe para instanciar o objeto.</answer>
+        <answer value = '0'>Sua utilização é adequada quando pretende-se atribuir a regra específica para um único elemento da página.</answer>
+        <answer value = '0'>Sua utilização é adequada quando pretende-se segregar os estilos dos elementos.</answer>
+        <answer value = '0'>Sua utilização é adequada quando pretende-se adicionar estilo para elementos de tag semântica diferente.</answer>
+    </question>
 
-Sobre a propriedade ID, é correto afimar.
-Resposta: Sua utilização é adequada quando pretende-se restringir certas regras de estilização a um determinado elemento.
+    <question id='25'>
+        <title>Sobre a propriedade ID, é correto afimar.</title>
+        <answer value = '0'>É utilizada para alterar o tamanho do elemento.</answer>
+        <answer value = '1'>Restringir certas regras de estilização a um determinado elemento.</answer>
+        <answer value = '0'>Utlizada para alterar o brilho de um elemento.</answer>
+        <answer value = '0'>O ID não tem uma função relevante na construção de uma página web.</answer>
+        <answer value = '0'>Nenhuma das anteriores</answer>
+    </question>
 
-Suponha um botão na cor verde que ao posicionar o ponteiro do mouse fique encima dele, sem realizar nenhuma ação de clique, o mesmo muda sua cor para cinza. Qual classe é utilizada?
-Resposta: :hover
+    <question id='26'>
+        <title>Suponha um botão na cor verde que ao posicionar o ponteiro do mouse fique encima dele, sem realizar nenhuma ação de clique, o mesmo muda sua cor para cinza. Qual classe é utilizada?</title>
+        <answer value = '0'>:changecolor</answer>
+        <answer value = '0'>:sobrepor</answer>
+        <answer value = '1'>:hover</answer>
+        <answer value = '0'>:onblur</answer>
+        <answer value = '0'>:rover</answer>
+    </question>
 
-Qual tag HTML é utilizada para definir uma folha de estilo?
-Resposta: <style>
+    <question id='27'>
+        <title>Qual tag HTML é utilizada para definir uma folha de estilo?</title>
+        <answer value = '0'>custom</answer>
+        <answer value = '0'>estilo</answer>
+        <answer value = '0'>css</answer>
+        <answer value = '1'>style</answer>
+        <answer value = '0'>script</answer>
+    </question>
 
-Qual propriedade CSS é usada para a mudança de cor do texto de um elemento?
-Resposta: color
+    <question id='28'>
+        <title>Qual propriedade CSS é usada para a mudança de cor do texto de um elemento?</title>
+        <answer value = '0'>font-color</answer>
+        <answer value = '0'>background-color</answer>
+        <answer value = '0'>rgb</answer>
+        <answer value = '0'>cor</answer>
+        <answer value = '1'>color</answer>
+    </question>
 
-O que significa CSS?
-Resposta: Cascading Style Sheets
+    <question id='29'>
+        <title>O que significa CSS?</title>
+        <answer value = '1'>Cascading Style Sheets</answer>
+        <answer value = '0'>Cascade Style Sensor</answer>
+        <answer value = '0'>Compile Style Sheets</answer>
+        <answer value = '0'>Color Size Sheets</answer>
+        <answer value = '0'>Cascade Size Sheets</answer>
+    </question>
 
+    <question id='30'>
+        <title>Como escrever no console do navegador utilizando JavaScript?</title>
+        <answer value = '0'>Console()</answer>
+        <answer value = '1'>Console.log()</answer>
+        <answer value = '0'>Console.Writeline()</answer>
+        <answer value = '0'>log()</answer>
+        <answer value = '0'>printf()</answer>
+    </question>
+    
 </quiz>

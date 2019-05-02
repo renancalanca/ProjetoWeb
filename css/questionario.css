@@ -1,0 +1,93 @@
+.header {
+  width: 100%;
+  min-height: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: cadetblue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#main {
+  padding-top: 75px;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+input[type="button"] {
+  background-color: cadetblue;
+  cursor: pointer;
+  margin: 4px 2px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 14px 28px;
+  font-weight: bold;
+}
+
+input[type="button"]:hover {
+  background-color: #9fc4c6;
+  color: white;
+}
+
+input[type="radio"] {
+  width: 30px;
+  color: red;
+}
+
+#ddlAvaliacao {
+  color: #60666d;
+}
+
+.quiz {
+  text-decoration: none;
+  background-color: #dfebec;
+}
+
+.question{
+  padding: 15px;
+}
+
+#btnFinalizar {
+  display: none;
+}
+
+#btnNovaTentativa {
+  display: none;
+}
+
+.pagination {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  background-color: cadetblue;
+}
+
+footer {
+  width: 100%;
+  min-height: 75px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: cadetblue;
+  align-items: center;
+  justify-content: baseline;
+  display: flex;
+  font-size: 13px;
+}
+
