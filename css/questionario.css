@@ -10,10 +10,12 @@
   display: flex;
   font-weight: bold;
   font-size: 20px;
+  color: whitesmoke;
 }
 
 #main {
   padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 body {
@@ -29,6 +31,7 @@ input[type="button"] {
   text-decoration: none;
   padding: 14px 28px;
   font-weight: bold;
+  color: whitesmoke;
 }
 
 input[type="button"]:hover {
@@ -76,11 +79,12 @@ input[type="radio"] {
 
 .pagination a:hover {
   background-color: cadetblue;
+  color: whitesmoke;
 }
 
 footer {
   width: 100%;
-  min-height: 75px;
+  min-height: 25px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -89,5 +93,6 @@ footer {
   justify-content: baseline;
   display: flex;
   font-size: 13px;
+  color: whitesmoke;
 }
 
