@@ -1,0 +1,786 @@
+{
+	"quiz": {
+		"question": [
+			{
+				"title": "Qual a tag para pular linha no html?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "a"
+					},
+					{
+						"_value": "0",
+						"__text": "b"
+					},
+					{
+						"_value": "0",
+						"__text": "cr"
+					},
+					{
+						"_value": "1",
+						"__text": "br"
+					},
+					{
+						"_value": "0",
+						"__text": "dr"
+					}
+				],
+				"_id": "1"
+			},
+			{
+				"title": "Qual a tag em HTML para parágrafo?",
+				"answer": [
+					{
+						"_value": "1",
+						"__text": "p"
+					},
+					{
+						"_value": "0",
+						"__text": "u"
+					},
+					{
+						"_value": "0",
+						"__text": "o"
+					},
+					{
+						"_value": "0",
+						"__text": "y"
+					},
+					{
+						"_value": "0",
+						"__text": "x"
+					}
+				],
+				"_id": "2"
+			},
+			{
+				"title": "Qual a tag H que tem maior tamanho de fonte?",
+				"answer": [
+					{
+						"_value": "1",
+						"__text": "h1"
+					},
+					{
+						"_value": "0",
+						"__text": "h2"
+					},
+					{
+						"_value": "0",
+						"__text": "h3"
+					},
+					{
+						"_value": "0",
+						"__text": "h4"
+					},
+					{
+						"_value": "0",
+						"__text": "h5"
+					}
+				],
+				"_id": "3"
+			},
+			{
+				"title": "Qual a tag para deixar um texto em negrito?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "a"
+					},
+					{
+						"_value": "0",
+						"__text": "n"
+					},
+					{
+						"_value": "0",
+						"__text": "bold"
+					},
+					{
+						"_value": "1",
+						"__text": "b"
+					},
+					{
+						"_value": "0",
+						"__text": "negrito"
+					}
+				],
+				"_id": "4"
+			},
+			{
+				"title": "Qual caracter indica o fim de uma tag?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "*"
+					},
+					{
+						"_value": "0",
+						"__text": ">"
+					},
+					{
+						"_value": "0",
+						"__text": "^"
+					},
+					{
+						"_value": "0",
+						"__text": "?"
+					},
+					{
+						"_value": "1",
+						"__text": "/"
+					}
+				],
+				"_id": "5"
+			},
+			{
+				"title": "O que vem dentro de uma table no html?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "td; tg; ti;"
+					},
+					{
+						"_value": "1",
+						"__text": "td; tr; th;"
+					},
+					{
+						"_value": "0",
+						"__text": "tu; tf; th;"
+					},
+					{
+						"_value": "0",
+						"__text": "tg; tt; th;"
+					},
+					{
+						"_value": "0",
+						"__text": "tv; tr; tm;"
+					}
+				],
+				"_id": "6"
+			},
+			{
+				"title": "Qual a tag referente ao rodapé de uma página HTML?",
+				"answer": [
+					{
+						"_value": "1",
+						"__text": "footer"
+					},
+					{
+						"_value": "0",
+						"__text": "foot"
+					},
+					{
+						"_value": "0",
+						"__text": "f"
+					},
+					{
+						"_value": "0",
+						"__text": "under"
+					},
+					{
+						"_value": "0",
+						"__text": "u"
+					}
+				],
+				"_id": "7"
+			},
+			{
+				"title": "O que significa HTML?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "HypnoToad Multiple Loop"
+					},
+					{
+						"_value": "0",
+						"__text": "HardText Markup Language"
+					},
+					{
+						"_value": "0",
+						"__text": "HyperTable Max Language"
+					},
+					{
+						"_value": "1",
+						"__text": "HyperText Markup Language"
+					},
+					{
+						"_value": "0",
+						"__text": "HyperText Master Language"
+					}
+				],
+				"_id": "8"
+			},
+			{
+				"title": "Qual a tag de inserção de imagens em uma página web?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "footer"
+					},
+					{
+						"_value": "0",
+						"__text": "src"
+					},
+					{
+						"_value": "0",
+						"__text": "imagem"
+					},
+					{
+						"_value": "0",
+						"__text": "alt"
+					},
+					{
+						"_value": "1",
+						"__text": "img"
+					}
+				],
+				"_id": "9"
+			},
+			{
+				"title": "Qual a tag para a criação de um hyperlink?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "ol"
+					},
+					{
+						"_value": "1",
+						"__text": "a"
+					},
+					{
+						"_value": "0",
+						"__text": "em"
+					},
+					{
+						"_value": "0",
+						"__text": "style"
+					},
+					{
+						"_value": "0",
+						"__text": "link"
+					}
+				],
+				"_id": "10"
+			},
+			{
+				"title": "Qual tag de HTML você coloca o JavaScript?",
+				"answer": [
+					{
+						"_value": "1",
+						"__text": "script"
+					},
+					{
+						"_value": "0",
+						"__text": "javascript"
+					},
+					{
+						"_value": "0",
+						"__text": "scripting"
+					},
+					{
+						"_value": "0",
+						"__text": "js"
+					},
+					{
+						"_value": "0",
+						"__text": "src"
+					}
+				],
+				"_id": "11"
+			},
+			{
+				"title": "Onde é o lugar correto para inserir o JavaScript?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "body"
+					},
+					{
+						"_value": "1",
+						"__text": "head"
+					},
+					{
+						"_value": "0",
+						"__text": "Tanto no body quanto no head"
+					},
+					{
+						"_value": "0",
+						"__text": "footer"
+					},
+					{
+						"_value": "0",
+						"__text": "Em qualquer lugar da página"
+					}
+				],
+				"_id": "12"
+			},
+			{
+				"title": "Qual é a sintaxe correta para se referir a um script externo com o nome de \"script.js\"?",
+				"answer": [
+					{
+						"_value": "1",
+						"__text": "script src = \"script.js\""
+					},
+					{
+						"_value": "0",
+						"__text": "script href = \"script.js\""
+					},
+					{
+						"_value": "0",
+						"__text": "script name = \"script.js\""
+					},
+					{
+						"_value": "0",
+						"__text": "script value = \"script.js\""
+					},
+					{
+						"_value": "0",
+						"__text": "script text = \"script.js\""
+					}
+				],
+				"_id": "13"
+			},
+			{
+				"title": "Como você escreve \"Hello World!\" em uma Alert Box?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "alertBox(\"Hello World!)"
+					},
+					{
+						"_value": "0",
+						"__text": "msgBox(\"Hello World!\")"
+					},
+					{
+						"_value": "0",
+						"__text": "msg(\"Hello World!\")"
+					},
+					{
+						"_value": "1",
+						"__text": "alert(\"Hello World!\")"
+					},
+					{
+						"_value": "0",
+						"__text": "boc(\"Hello World!\")"
+					}
+				],
+				"_id": "14"
+			},
+			{
+				"title": "Qual é a sintaxe para criar uma função em JavaScript?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "function:myFunction()"
+					},
+					{
+						"_value": "0",
+						"__text": "function = myFunction()"
+					},
+					{
+						"_value": "0",
+						"__text": "function var myFunction()"
+					},
+					{
+						"_value": "0",
+						"__text": "style"
+					},
+					{
+						"_value": "1",
+						"__text": "function myFunction()"
+					}
+				],
+				"_id": "15"
+			},
+			{
+				"title": "Como escrever um IF em JavaScript?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "if i = 5 then"
+					},
+					{
+						"_value": "1",
+						"__text": "if(i==5)"
+					},
+					{
+						"_value": "0",
+						"__text": "if i == 5"
+					},
+					{
+						"_value": "0",
+						"__text": "if (i==5) then"
+					},
+					{
+						"_value": "0",
+						"__text": "if (5)"
+					}
+				],
+				"_id": "16"
+			},
+			{
+				"title": "Qual o modo correto de escrever um array no JavaScript?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "var colors = \"red\", \"green\", \"blue\""
+					},
+					{
+						"_value": "0",
+						"__text": "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")"
+					},
+					{
+						"_value": "0",
+						"__text": "var colors = \"red\" - \"green\" - \"blue\""
+					},
+					{
+						"_value": "0",
+						"__text": "var colors = 1 = \"red\", 2 = \"green\", 3 = \"blue\""
+					},
+					{
+						"_value": "1",
+						"__text": "var colors = [\"red\", \"green\", \"blue\"]"
+					}
+				],
+				"_id": "17"
+			},
+			{
+				"title": "Como você encontra o número com maior valor entre x e y?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "ceil(x, y)"
+					},
+					{
+						"_value": "0",
+						"__text": "Math.ceil(x, y)"
+					},
+					{
+						"_value": "0",
+						"__text": "Math(x, y)"
+					},
+					{
+						"_value": "0",
+						"__text": "top(x, y)"
+					},
+					{
+						"_value": "1",
+						"__text": "Math.max(x, y)"
+					}
+				],
+				"_id": "18"
+			},
+			{
+				"title": "Para que haja uma animação que muda de forma gradual, em CSS, qual função utilizamos?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "frame"
+					},
+					{
+						"_value": "1",
+						"__text": "@keyframes"
+					},
+					{
+						"_value": "0",
+						"__text": "rotation"
+					},
+					{
+						"_value": "0",
+						"__text": "@gradient"
+					},
+					{
+						"_value": "0",
+						"__text": "gradual"
+					}
+				],
+				"_id": "19"
+			},
+			{
+				"title": "Para que haja uma animação que muda de forma gradual, em CSS, qual função utilizamos?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "frame"
+					},
+					{
+						"_value": "1",
+						"__text": "@keyframes"
+					},
+					{
+						"_value": "0",
+						"__text": "rotation"
+					},
+					{
+						"_value": "0",
+						"__text": "@gradient"
+					},
+					{
+						"_value": "0",
+						"__text": "gradual"
+					}
+				],
+				"_id": "20"
+			},
+			{
+				"title": "Qual propriedade CSS é utilizada para ditar o tempo da execução de uma animação?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "duration"
+					},
+					{
+						"_value": "0",
+						"__text": "time-animation"
+					},
+					{
+						"_value": "1",
+						"__text": "animation-duration"
+					},
+					{
+						"_value": "0",
+						"__text": "timer"
+					},
+					{
+						"_value": "0",
+						"__text": "animation-timer"
+					}
+				],
+				"_id": "21"
+			},
+			{
+				"title": "Com qual das seguintes expressões, é possível deixar o elemento em questão \"transparente\"?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "transparent = true;"
+					},
+					{
+						"_value": "0",
+						"__text": "opacity = 0;"
+					},
+					{
+						"_value": "0",
+						"__text": "filter: transparent;"
+					},
+					{
+						"_value": "1",
+						"__text": "filter: alpha(opacity=100);"
+					},
+					{
+						"_value": "0",
+						"__text": "filter: visible = false;"
+					}
+				],
+				"_id": "22"
+			},
+			{
+				"title": "O CSS Tansform é:",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "Um efeito que muda o estado de visibilidade do elemento."
+					},
+					{
+						"_value": "0",
+						"__text": "Tem a função de adicionar sobreposição do elemento sobre outro."
+					},
+					{
+						"_value": "0",
+						"__text": "Um efeito para alterar a opacidade de um elemento."
+					},
+					{
+						"_value": "0",
+						"__text": "Altera a cor de um elemento."
+					},
+					{
+						"_value": "1",
+						"__text": "Um efeito que permite que um elemento mude de forma, tamanho e posição."
+					}
+				],
+				"_id": "23"
+			},
+			{
+				"title": "Sobre a propriedade Class, é correto afirmar.",
+				"answer": [
+					{
+						"_value": "1",
+						"__text": "Sua utilização é adequada quando pretende-se atribuir a mesma regra de estilização para mais de um elemento, com a mesma tag semântica, em um documento."
+					},
+					{
+						"_value": "0",
+						"__text": "Sua utilização é adequada quando pretende-se criar uma classe para instanciar o objeto."
+					},
+					{
+						"_value": "0",
+						"__text": "Sua utilização é adequada quando pretende-se atribuir a regra específica para um único elemento da página."
+					},
+					{
+						"_value": "0",
+						"__text": "Sua utilização é adequada quando pretende-se segregar os estilos dos elementos."
+					},
+					{
+						"_value": "0",
+						"__text": "Sua utilização é adequada quando pretende-se adicionar estilo para elementos de tag semântica diferente."
+					}
+				],
+				"_id": "24"
+			},
+			{
+				"title": "Sobre a propriedade ID, é correto afimar.",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "É utilizada para alterar o tamanho do elemento."
+					},
+					{
+						"_value": "1",
+						"__text": "Restringir certas regras de estilização a um determinado elemento."
+					},
+					{
+						"_value": "0",
+						"__text": "Utlizada para alterar o brilho de um elemento."
+					},
+					{
+						"_value": "0",
+						"__text": "O ID não tem uma função relevante na construção de uma página web."
+					},
+					{
+						"_value": "0",
+						"__text": "Nenhuma das anteriores"
+					}
+				],
+				"_id": "25"
+			},
+			{
+				"title": "Suponha um botão na cor verde que ao posicionar o ponteiro do mouse fique encima dele, sem realizar nenhuma ação de clique, o mesmo muda sua cor para cinza. Qual classe é utilizada?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": ":changecolor"
+					},
+					{
+						"_value": "0",
+						"__text": ":sobrepor"
+					},
+					{
+						"_value": "1",
+						"__text": ":hover"
+					},
+					{
+						"_value": "0",
+						"__text": ":onblur"
+					},
+					{
+						"_value": "0",
+						"__text": ":rover"
+					}
+				],
+				"_id": "26"
+			},
+			{
+				"title": "Qual tag HTML é utilizada para definir uma folha de estilo?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "custom"
+					},
+					{
+						"_value": "0",
+						"__text": "estilo"
+					},
+					{
+						"_value": "0",
+						"__text": "css"
+					},
+					{
+						"_value": "1",
+						"__text": "style"
+					},
+					{
+						"_value": "0",
+						"__text": "script"
+					}
+				],
+				"_id": "27"
+			},
+			{
+				"title": "Qual propriedade CSS é usada para a mudança de cor do texto de um elemento?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "font-color"
+					},
+					{
+						"_value": "0",
+						"__text": "background-color"
+					},
+					{
+						"_value": "0",
+						"__text": "rgb"
+					},
+					{
+						"_value": "0",
+						"__text": "cor"
+					},
+					{
+						"_value": "1",
+						"__text": "color"
+					}
+				],
+				"_id": "28"
+			},
+			{
+				"title": "O que significa CSS?",
+				"answer": [
+					{
+						"_value": "1",
+						"__text": "Cascading Style Sheets"
+					},
+					{
+						"_value": "0",
+						"__text": "Cascade Style Sensor"
+					},
+					{
+						"_value": "0",
+						"__text": "Compile Style Sheets"
+					},
+					{
+						"_value": "0",
+						"__text": "Color Size Sheets"
+					},
+					{
+						"_value": "0",
+						"__text": "Cascade Size Sheets"
+					}
+				],
+				"_id": "29"
+			},
+			{
+				"title": "Como escrever no console do navegador utilizando JavaScript?",
+				"answer": [
+					{
+						"_value": "0",
+						"__text": "Console()"
+					},
+					{
+						"_value": "1",
+						"__text": "Console.log()"
+					},
+					{
+						"_value": "0",
+						"__text": "Console.Writeline()"
+					},
+					{
+						"_value": "0",
+						"__text": "log()"
+					},
+					{
+						"_value": "0",
+						"__text": "printf()"
+					}
+				],
+				"_id": "30"
+			}
+		]
+	}
+}
