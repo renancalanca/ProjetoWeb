@@ -1,6 +1,15 @@
-$(document).ready(function() {
-  console.log( "ready!" );
-});
+function teste(){
+  console.log(document.getElementById("main"));
+}
+
+function opaa(){
+  console.log("Estou aqui");
+  console.log($("#main"));
+  $(document).ready(function() {
+    console.log( "ready!" );
+  });
+}
+
 
 // function todosChecados2() {
 //   var lstQuestionAnswered = $("question");
